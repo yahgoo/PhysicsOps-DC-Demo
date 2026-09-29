@@ -1,1 +1,1 @@
-When a chiller starts behaving differently, an alarm is only the beginning. The harder question is why. PhysicsOps is an engineering investigation workspace that turns that question into evidence an engineer can check.
+When a chiller starts behaving differently, the harder question is why. PhysicsOps is an engineering investigation workspace that turns that question into evidence an engineer can check.

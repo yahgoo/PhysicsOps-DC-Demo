@@ -1,21 +1,23 @@
-# PhysicsOps narrated demo: script and storyboard (review draft, revision 2)
+# PhysicsOps narrated demo: script and storyboard (review draft, revision 3)
 
 Status: ready for review, NOT approved. Full narration and rendering wait for explicit script + voice approval.
 
 - Tested revision: `4338bfd` (PR #1 branch `devin/1790574083-physicsops-demo`). Build under test: `npm run build` +
   `vite preview` on :4173, Chromium (Playwright 1.63.0).
 - Target: ~180 s, 1920x1080, English narration (Kokoro `af_heart`, speed 0.95) + burned-in captions + SRT, no music.
-- Spoken script: 368 words (S2 trimmed from 69 to 56). `script.md` has per-scene timing, the footage plan and the revised text.
+- Spoken script: 356 words (revision 3). `script.md` and `approval-packet.md` have the timing, the 180 s footage map and the wording changes.
 - Spoken forms: "CH-02" -> "Chiller Zero-Two"; "K" -> "kelvin"; "COP" -> "C-O-P, the coefficient of performance" (first use);
   "UA" is avoided in speech ("effective condenser heat transfer").
 - Reference recordings (both unedited, neither is the narrated video):
   - `test-evidence/physicsops-browser-test-uninterrupted.webm` — automated test run, 5.6 s, no pauses.
   - `walkthrough/physicsops-human-paced-walkthrough-unedited.webm` — human-paced review capture with deliberate pauses;
     timestamps in `walkthrough/walkthrough-marks.json`.
+  - `supplemental/physicsops-supplemental-captures-unedited.webm` — separate human-paced run (same build and seed): remaining
+    evidence items, finding limitations, what-if assumptions, How it works; marks in `supplemental/supplemental-marks.json`.
 
 | Scene | Target | UI state / capture action (source screen) | Narration | Sources for claims | Disclosure / emphasis |
 |---|---|---|---|---|---|
-| S1 Hook | 0:00-0:15 | Overview at load, 6/6 normal (`screens/01-overview.png`) | `narration/s1-hook.txt` | Product brief sec. 1-2 | Keep "SYNTHETIC DEMO DATA" badge in frame |
+| S1 Hook | 0:00-0:15 | Overview at load, 6/6 normal (`screens/01-overview.png`) | `narration/s1-hook.txt` | Framing only (no UI claim) | Keep "SYNTHETIC DEMO DATA" badge in frame |
 | S2 Context + change | 0:15-0:40 | Clip: click Start investigation, 4-day reveal animation, end on Observations (`02-observations.png`) | `narration/s2-context.txt` | Fleet of six, first 3 of 7 days = baseline, reveal of the remaining 4 (overview text, `demoState.ts`); +1.35 K, 2.80 vs 1.46 K; +4.8 % power; flow +0.1 % (summary cards) | Highlight approach + power cards; "comparable conditions" caption |
 | S3 Hypotheses | 0:40-1:05 | Click Review competing explanations (`03-hypotheses.png`) | `narration/s3-hypotheses.txt` | "4 supporting · 0 weakening · 0 inconclusive · 1 missing"; "Leading hypothesis — requires verification" | Keep "requires verification" visible |
 | S4 Evidence | 1:05-1:35 | Select heat-transfer hypothesis, expand "Condenser approach elevated" (`04-evidence.png`); brief hold on Power/Flow chart tabs (`02-chart-power.png`, `02-chart-flow.png`) | `narration/s4-evidence.txt` | Formula text in evidence item; 3/4 blocks; missing-measurement item | Zoom lightly on formula line; do not crop "Missing measurement" |
@@ -25,7 +27,7 @@ Status: ready for review, NOT approved. Full narration and rendering wait for ex
 | S8 Close | 2:50-3:00 | How it works dialog hold (`08-how-it-works.png`) or return to overview after Reset | `narration/s8-close.txt` | - | End card: "Synthetic data. Demonstration, not a diagnosis of real equipment." |
 
 Notes
-- All scenes come from one continuous run of the same build; no separate fixtures.
+- Footage comes from two unedited runs of the same build and seed (walkthrough and supplemental). A cut between them is a cut between takes.
 - The screenshots in `screens/` are review references. Final captures need a ~300 ms settle after each click: an immediate
   capture of the Finding step caught the tab underline mid-transition (DOM state was correct).
 - No claims about timing to failure, savings, accuracy, customers, or autonomous action.
@@ -52,27 +54,27 @@ Notes
 | Sensitivity, not a forecast; load fixed | `SENSITIVITY ANALYSIS — NOT A CALIBRATED FORECAST`; `Cooling delivery is held fixed by assumption` | What-if result | `screens/06-what-if.png` |
 | Request stays local | `Demo inspection request created. No request was sent to a maintenance system.` | Next action | `screens/07-inspection.png` |
 
-## Narration text
+## Narration text (revision 3)
 
-**s1-hook** (33 words)
+**s1-hook** (27 words)
 
-When a chiller starts behaving differently, an alarm is only the beginning. The harder question is why. PhysicsOps is an engineering investigation workspace that turns that question into evidence an engineer can check.
+When a chiller starts behaving differently, the harder question is why. PhysicsOps is an engineering investigation workspace that turns that question into evidence an engineer can check.
 
-**s2-context** (56 words; revision 2)
+**s2-context** (54 words)
 
-Chiller Zero-Two is one of six. The first three of seven synthetic days form the comparable-condition baseline; starting the investigation reveals the rest. In the last twenty-four hours, at matched load and inlet temperature, condenser approach runs one point three five kelvin above baseline, and compressor power four point eight percent higher. Condenser-water flow barely moves.
+Chiller Zero-Two is one of six. The first three of seven synthetic days form the comparable-condition baseline; the investigation reveals the rest. In the last twenty-four hours, at matched load and inlet temperature, condenser approach is one point three five kelvin above baseline, compressor power four point eight percent higher, and flow is flat.
 
 **s3-hypotheses** (48 words)
 
 Rather than jumping to an answer, PhysicsOps tests three competing explanations against the same data: condenser heat-transfer degradation, reduced condenser-water flow, and a sensor or instrumentation problem. Heat-transfer degradation leads, with four supporting items and none against it. It is labelled a leading hypothesis that still requires verification.
 
-**s4-evidence** (68 words)
+**s4-evidence** (66 words)
 
-Every item opens to the calculation behind it. Approach is the condensing saturation temperature minus the condenser-water outlet temperature, compared with a baseline model of load and inlet temperature. Compressor power rises in line with the higher condensing temperature. Measured flow is stable, and the pattern persists in three of the last four twelve-hour blocks. The tool also lists what is missing: no independent condensing-pressure or tube-condition measurement.
+Every item opens to its calculation. Approach is the condensing saturation temperature minus the condenser-water outlet temperature, compared with a baseline model of load and inlet temperature. Compressor power rises in line with the higher condensing temperature. Measured flow is stable, and the pattern persists in three of the last four twelve-hour blocks. The tool also lists what is missing: no independent condensing-pressure or tube-condition measurement.
 
-**s5-finding** (41 words)
+**s5-finding** (42 words)
 
-The engineering finding sets out what was observed, the leading hypothesis, why the alternatives fit less well, and the limitations, starting with the fact that this is synthetic data. Evidence strength is Medium, requiring verification: a qualitative label, not a probability.
+The engineering finding rates evidence strength Medium, requiring verification: a qualitative label, not a probability. It sets out what was observed, the leading hypothesis, why the alternatives fit less well, and the limitations, starting with the fact that this is synthetic data.
 
 **s6-what-if** (70 words)
 
@@ -82,16 +84,16 @@ Then a what-if question: what if effective condenser heat transfer drops a furth
 
 The finding feeds a verification checklist and a demo inspection request listing the checks to perform. In this demo the request stays local. Nothing is sent to a maintenance system.
 
-**s8-close** (22 words)
+**s8-close** (19 words)
 
-From something changed, to what might explain it, to what to verify next. PhysicsOps: inspectable engineering evidence, with the uncertainty left in.
+From something changed, to what might explain it, to what to verify next. PhysicsOps: inspectable engineering evidence, uncertainty included.
 
 ## Additional traced claims (revision 2 review)
 
 | Claim in script | Value on screen | UI location | In walkthrough? |
 |---|---|---|---|
-| S5 "a qualitative label, not a probability" | `Evidence strength is a qualitative label, not a probability.` | How it works dialog | No; use `screens/08-how-it-works.png` |
-| S6 "says nothing about capacity or timing" | `the model does not show whether capacity would be affected`; `Does not indicate when, or whether, further deterioration will occur.` | What-if note; What-if > Model assumptions and limitations (collapsed) | Capacity yes; timing no (section not expanded) |
+| S5 "a qualitative label, not a probability" | `Evidence strength is a qualitative label, not a probability.` | How it works dialog | Supplemental 68.3 s; still `s5-how-it-works-not-a-probability@2x.png` |
+| S6 "says nothing about capacity or timing" | `the model does not show whether capacity would be affected`; `Does not indicate when, or whether, further deterioration will occur.` | What-if note; What-if > Model assumptions and limitations (collapsed) | Capacity: walkthrough 94.7 s; timing: supplemental 51.9 s |
 | S6 "calibrated to the current operating point" | `Compressor efficiency relative to Carnot is calibrated to the current operating point and held fixed.` | How it works > What-if sensitivity | No |
 | S7 "request listing the checks to perform" | `REQUESTED CHECKS` (4 items) | Schedule inspection dialog | Yes (107.8 s) |
-| S1 "an alarm is only the beginning" | none: framing line from the product brief, not a UI claim | - | - |
+| S1 "an alarm is only the beginning" | removed in revision 3 | - | - |

@@ -1,1 +1,1 @@
-The engineering finding sets out what was observed, the leading hypothesis, why the alternatives fit less well, and the limitations, starting with the fact that this is synthetic data. Evidence strength is Medium, requiring verification: a qualitative label, not a probability.
+The engineering finding rates evidence strength Medium, requiring verification: a qualitative label, not a probability. It sets out what was observed, the leading hypothesis, why the alternatives fit less well, and the limitations, starting with the fact that this is synthetic data.
