@@ -1,0 +1,11 @@
+{
+  "name": "narrated-product-demo-tooling",
+  "private": true,
+  "description": "Pinned HyperFrames CLI for the narrated-product-demo skill. Install with `npm ci`.",
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "hyperframes": "0.8.59"
+  }
+}
