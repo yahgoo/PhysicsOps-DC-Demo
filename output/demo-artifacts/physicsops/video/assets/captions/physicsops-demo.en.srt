@@ -1,0 +1,316 @@
+1
+00:00:00,330 --> 00:00:01,960
+When a chiller starts behaving
+
+2
+00:00:02,060 --> 00:00:04,010
+Differently, the harder question is
+
+3
+00:00:04,010 --> 00:00:06,930
+Why. PhysicsOps is an engineering
+
+4
+00:00:06,940 --> 00:00:09,790
+Investigation workspace that turns that
+
+5
+00:00:09,790 --> 00:00:11,260
+Question into evidence an engineer
+
+6
+00:00:11,260 --> 00:00:12,020
+Can check.
+
+7
+00:00:15,340 --> 00:00:17,020
+Chiller Zero-Two is one
+
+8
+00:00:17,120 --> 00:00:18,660
+Of six. The first three
+
+9
+00:00:18,660 --> 00:00:20,190
+Of seven synthetic days form
+
+10
+00:00:20,190 --> 00:00:22,280
+The comparable condition baseline.
+
+11
+00:00:22,320 --> 00:00:24,920
+The investigation reveals the rest.
+
+12
+00:00:24,960 --> 00:00:26,820
+In the last 24 hours,
+
+13
+00:00:26,820 --> 00:00:28,190
+At matched load and inlet
+
+14
+00:00:28,230 --> 00:00:31,600
+Temperature, condenser approach is 1.35
+
+15
+00:00:31,620 --> 00:00:33,400
+kelvin above baseline,
+
+16
+00:00:33,440 --> 00:00:36,200
+Compressor power 4.8% higher,
+
+17
+00:00:36,200 --> 00:00:37,540
+And flow is flat.
+
+18
+00:00:40,350 --> 00:00:41,600
+Rather than jumping to an
+
+19
+00:00:41,600 --> 00:00:44,030
+Answer, PhysicsOps tests three competing
+
+20
+00:00:44,030 --> 00:00:46,670
+Explanations against the same data—condenser
+
+21
+00:00:46,670 --> 00:00:48,560
+Heat transfer degradation,
+
+22
+00:00:48,620 --> 00:00:50,640
+Reduced condenser water flow,
+
+23
+00:00:50,640 --> 00:00:52,970
+And a sensor or instrumentation
+
+24
+00:00:53,360 --> 00:00:56,070
+Problem. Heat transfer degradation leads,
+
+25
+00:00:56,120 --> 00:00:57,960
+With four supporting items and
+
+26
+00:00:57,960 --> 00:00:59,160
+None against it.
+
+27
+00:00:59,190 --> 00:01:00,370
+It is labeled a leading
+
+28
+00:01:00,420 --> 00:01:03,220
+Hypothesis that still requires verification.
+
+29
+00:01:05,340 --> 00:01:06,930
+Every item opens to its
+
+30
+00:01:06,930 --> 00:01:09,580
+Calculation. Approach is the condensing
+
+31
+00:01:09,580 --> 00:01:12,110
+Saturation temperature minus the condenser
+
+32
+00:01:12,120 --> 00:01:13,700
+Water outlet temperature,
+
+33
+00:01:13,740 --> 00:01:15,120
+Compared with a baseline model
+
+34
+00:01:15,210 --> 00:01:17,480
+Of load and inlet temperature.
+
+35
+00:01:17,520 --> 00:01:19,610
+Compressor power rises in line
+
+36
+00:01:19,660 --> 00:01:21,940
+With the higher condensing temperature.
+
+37
+00:01:22,180 --> 00:01:23,870
+Measured flow is stable,
+
+38
+00:01:23,930 --> 00:01:25,220
+And the pattern persists in
+
+39
+00:01:25,220 --> 00:01:26,480
+Three of the last four
+
+40
+00:01:26,480 --> 00:01:28,680
+12-hour blocks. The tool also
+
+41
+00:01:28,680 --> 00:01:30,150
+Lists what is missing,
+
+42
+00:01:30,200 --> 00:01:32,310
+No independent condensing pressure or
+
+43
+00:01:32,310 --> 00:01:33,780
+Tube condition measurement.
+
+44
+00:01:35,350 --> 00:01:37,500
+The engineering finding rates evidence
+
+45
+00:01:37,500 --> 00:01:40,760
+Strength medium, requiring verification.
+
+46
+00:01:40,830 --> 00:01:42,100
+A qualitative label,
+
+47
+00:01:42,100 --> 00:01:43,850
+Not a probability.
+
+48
+00:01:43,910 --> 00:01:44,860
+It sets out what was
+
+49
+00:01:44,860 --> 00:01:47,220
+Observed, the leading hypothesis,
+
+50
+00:01:47,270 --> 00:01:49,060
+Why the alternatives fit less
+
+51
+00:01:49,060 --> 00:01:50,820
+Well, and the limitations,
+
+52
+00:01:50,820 --> 00:01:52,040
+Starting with the fact that
+
+53
+00:01:52,040 --> 00:01:53,500
+This is synthetic data.
+
+54
+00:01:55,340 --> 00:01:56,780
+Then a what if question,
+
+55
+00:01:56,820 --> 00:01:58,380
+What if effective condenser heat
+
+56
+00:01:58,380 --> 00:02:00,940
+Transfer drops a further 10%?
+
+57
+00:02:00,980 --> 00:02:02,700
+A simplified condenser model,
+
+58
+00:02:02,740 --> 00:02:04,570
+Calibrated to the current operating
+
+59
+00:02:04,570 --> 00:02:06,990
+Point, estimates compressor power up
+
+60
+00:02:07,080 --> 00:02:09,100
+1.7%, approach up half a
+
+61
+00:02:09,100 --> 00:02:10,580
+kelvin and COP,
+
+62
+00:02:10,620 --> 00:02:12,220
+The coefficient of performance,
+
+63
+00:02:12,220 --> 00:02:15,030
+Down 1.7%. This is a
+
+64
+00:02:15,030 --> 00:02:18,020
+Sensitivity analysis, not a forecast.
+
+65
+00:02:18,060 --> 00:02:19,860
+Cooling load is held fixed,
+
+66
+00:02:19,900 --> 00:02:20,970
+So it says nothing about
+
+67
+00:02:21,380 --> 00:02:22,520
+Capacity or timing.
+
+68
+00:02:30,350 --> 00:02:32,160
+The finding feeds a verification
+
+69
+00:02:32,160 --> 00:02:34,250
+Checklist and a demo inspection
+
+70
+00:02:34,320 --> 00:02:35,960
+Request listing the checks to
+
+71
+00:02:35,960 --> 00:02:37,920
+Perform. In this demo,
+
+72
+00:02:37,960 --> 00:02:39,820
+The request stays local.
+
+73
+00:02:39,870 --> 00:02:40,810
+Nothing is sent to a
+
+74
+00:02:40,810 --> 00:02:42,120
+Maintenance system.
+
+75
+00:02:50,390 --> 00:02:51,900
+From something changed to what
+
+76
+00:02:51,900 --> 00:02:53,380
+Might explain it to what
+
+77
+00:02:53,380 --> 00:02:54,740
+To verify next.
+
+78
+00:02:54,830 --> 00:02:57,900
+PhysicsOps, inspectable engineering evidence,
+
+79
+00:02:57,990 --> 00:02:59,340
+Uncertainty included.
+

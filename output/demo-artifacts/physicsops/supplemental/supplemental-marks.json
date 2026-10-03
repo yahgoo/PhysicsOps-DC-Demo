@@ -1,0 +1,46 @@
+[
+  {
+    "t": 6.4,
+    "label": "S4: evidence list, all items closed"
+  },
+  {
+    "t": 10.5,
+    "label": "S4: evidence item opened: Compressor power rises in line"
+  },
+  {
+    "t": 15.5,
+    "label": "S4: evidence item opened: Measured condenser-water flow comparatively stable"
+  },
+  {
+    "t": 20.5,
+    "label": "S4: evidence item opened: Pattern persists and grows over time"
+  },
+  {
+    "t": 25.6,
+    "label": "S4: evidence item opened: No independent condensing-pressure"
+  },
+  {
+    "t": 30.7,
+    "label": "S5: finding limitations (five items)"
+  },
+  {
+    "t": 47.8,
+    "label": "S6: what-if result at 10%"
+  },
+  {
+    "t": 51.9,
+    "label": "S6: model assumptions and limitations expanded (timing statement)"
+  },
+  {
+    "t": 65,
+    "label": "S5/S8: How it works dialog open"
+  },
+  {
+    "t": 68.3,
+    "label": "S5: \"Evidence strength is a qualitative label, not a probability.\""
+  },
+  {
+    "t": 79.2,
+    "label": "S8: \"What this demo does not do\""
+  }
+]

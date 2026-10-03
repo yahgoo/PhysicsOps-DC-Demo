@@ -1,0 +1,66 @@
+[
+  {
+    "t": 0.3,
+    "label": "Overview: 6 / 6 normal, synthetic-data disclosure"
+  },
+  {
+    "t": 7.3,
+    "label": "Start investigation: remaining four days reveal"
+  },
+  {
+    "t": 10.2,
+    "label": "Observations: approach +1.35 K, power +4.8%, flow +0.1%"
+  },
+  {
+    "t": 21.2,
+    "label": "Chart channel: Power"
+  },
+  {
+    "t": 26.3,
+    "label": "Chart channel: Flow"
+  },
+  {
+    "t": 31.4,
+    "label": "Chart channel: COP"
+  },
+  {
+    "t": 36.4,
+    "label": "Chart channel: approach"
+  },
+  {
+    "t": 41.5,
+    "label": "Hypotheses: three competing explanations"
+  },
+  {
+    "t": 52.6,
+    "label": "Evidence: 4 supporting · 0 weakening · 1 missing"
+  },
+  {
+    "t": 59.6,
+    "label": "Evidence detail: approach calculation"
+  },
+  {
+    "t": 68.7,
+    "label": "Finding: observed values, leading hypothesis, alternatives"
+  },
+  {
+    "t": 80.6,
+    "label": "Finding: scrolled to limitations"
+  },
+  {
+    "t": 89.6,
+    "label": "What-if: 10% further UA reduction selected"
+  },
+  {
+    "t": 94.7,
+    "label": "What-if result: power +1.7%, approach +0.50 K, COP -1.7%"
+  },
+  {
+    "t": 107.8,
+    "label": "Inspection dialog (demo)"
+  },
+  {
+    "t": 114.9,
+    "label": "Inspection confirmation: nothing sent"
+  }
+]
