@@ -1,0 +1,555 @@
+[
+ {
+  "start": 0.32999999999999996,
+  "end": 1.96,
+  "text": "When a chiller starts behaving",
+  "hold_end": 2.06,
+  "scene": "s1"
+ },
+ {
+  "start": 2.06,
+  "end": 4.01,
+  "text": "differently, the harder question is",
+  "hold_end": 4.01,
+  "scene": "s1"
+ },
+ {
+  "start": 4.01,
+  "end": 6.93,
+  "text": "why. PhysicsOps is an engineering",
+  "hold_end": 6.9399999999999995,
+  "scene": "s1"
+ },
+ {
+  "start": 6.9399999999999995,
+  "end": 9.790000000000001,
+  "text": "investigation workspace that turns that",
+  "hold_end": 9.790000000000001,
+  "scene": "s1"
+ },
+ {
+  "start": 9.790000000000001,
+  "end": 11.260000000000002,
+  "text": "question into evidence an engineer",
+  "hold_end": 11.260000000000002,
+  "scene": "s1"
+ },
+ {
+  "start": 11.260000000000002,
+  "end": 12.020000000000001,
+  "text": "can check.",
+  "hold_end": 12.520000000000001,
+  "scene": "s1"
+ },
+ {
+  "start": 15.34,
+  "end": 17.02,
+  "text": "Chiller zero two is one",
+  "hold_end": 17.12,
+  "scene": "s2"
+ },
+ {
+  "start": 17.12,
+  "end": 18.66,
+  "text": "of six. The first three",
+  "hold_end": 18.66,
+  "scene": "s2"
+ },
+ {
+  "start": 18.66,
+  "end": 20.19,
+  "text": "of seven synthetic days form",
+  "hold_end": 20.19,
+  "scene": "s2"
+ },
+ {
+  "start": 20.19,
+  "end": 22.28,
+  "text": "the comparable condition baseline.",
+  "hold_end": 22.32,
+  "scene": "s2"
+ },
+ {
+  "start": 22.32,
+  "end": 24.92,
+  "text": "The investigation reveals the rest.",
+  "hold_end": 24.96,
+  "scene": "s2"
+ },
+ {
+  "start": 24.96,
+  "end": 26.82,
+  "text": "In the last 24 hours,",
+  "hold_end": 26.82,
+  "scene": "s2"
+ },
+ {
+  "start": 26.82,
+  "end": 28.19,
+  "text": "at matched load and inlet",
+  "hold_end": 28.23,
+  "scene": "s2"
+ },
+ {
+  "start": 28.23,
+  "end": 31.6,
+  "text": "temperature, condenser approach is 1.35",
+  "hold_end": 31.62,
+  "scene": "s2"
+ },
+ {
+  "start": 31.62,
+  "end": 33.400000000000006,
+  "text": "Kelvin above baseline,",
+  "hold_end": 33.44,
+  "scene": "s2"
+ },
+ {
+  "start": 33.44,
+  "end": 36.2,
+  "text": "compressor power 4.8% higher,",
+  "hold_end": 36.2,
+  "scene": "s2"
+ },
+ {
+  "start": 36.2,
+  "end": 37.54,
+  "text": "and flow is flat.",
+  "hold_end": 38.04,
+  "scene": "s2"
+ },
+ {
+  "start": 40.349999999999994,
+  "end": 41.599999999999994,
+  "text": "Rather than jumping to an",
+  "hold_end": 41.599999999999994,
+  "scene": "s3"
+ },
+ {
+  "start": 41.599999999999994,
+  "end": 44.029999999999994,
+  "text": "answer, PhysicsOps tests three competing",
+  "hold_end": 44.029999999999994,
+  "scene": "s3"
+ },
+ {
+  "start": 44.029999999999994,
+  "end": 46.669999999999995,
+  "text": "explanations against the same data\u2014condenser",
+  "hold_end": 46.669999999999995,
+  "scene": "s3"
+ },
+ {
+  "start": 46.669999999999995,
+  "end": 48.559999999999995,
+  "text": "heat transfer degradation,",
+  "hold_end": 48.62,
+  "scene": "s3"
+ },
+ {
+  "start": 48.62,
+  "end": 50.64,
+  "text": "reduced condenser water flow,",
+  "hold_end": 50.64,
+  "scene": "s3"
+ },
+ {
+  "start": 50.64,
+  "end": 52.97,
+  "text": "and a sensor or instrumentation",
+  "hold_end": 53.36,
+  "scene": "s3"
+ },
+ {
+  "start": 53.36,
+  "end": 56.06999999999999,
+  "text": "problem. Heat transfer degradation leads,",
+  "hold_end": 56.12,
+  "scene": "s3"
+ },
+ {
+  "start": 56.12,
+  "end": 57.959999999999994,
+  "text": "with four supporting items and",
+  "hold_end": 57.959999999999994,
+  "scene": "s3"
+ },
+ {
+  "start": 57.959999999999994,
+  "end": 59.16,
+  "text": "none against it.",
+  "hold_end": 59.19,
+  "scene": "s3"
+ },
+ {
+  "start": 59.19,
+  "end": 60.37,
+  "text": "It is labeled a leading",
+  "hold_end": 60.42,
+  "scene": "s3"
+ },
+ {
+  "start": 60.42,
+  "end": 63.22,
+  "text": "hypothesis that still requires verification.",
+  "hold_end": 63.72,
+  "scene": "s3"
+ },
+ {
+  "start": 65.34,
+  "end": 66.92999999999999,
+  "text": "Every item opens to its",
+  "hold_end": 66.92999999999999,
+  "scene": "s4"
+ },
+ {
+  "start": 66.92999999999999,
+  "end": 69.58,
+  "text": "calculation. Approach is the condensing",
+  "hold_end": 69.58,
+  "scene": "s4"
+ },
+ {
+  "start": 69.58,
+  "end": 72.11,
+  "text": "saturation temperature minus the condenser",
+  "hold_end": 72.12,
+  "scene": "s4"
+ },
+ {
+  "start": 72.12,
+  "end": 73.7,
+  "text": "water outlet temperature,",
+  "hold_end": 73.74,
+  "scene": "s4"
+ },
+ {
+  "start": 73.74,
+  "end": 75.12,
+  "text": "compared with a baseline model",
+  "hold_end": 75.21,
+  "scene": "s4"
+ },
+ {
+  "start": 75.21,
+  "end": 77.47999999999999,
+  "text": "of load and inlet temperature.",
+  "hold_end": 77.52,
+  "scene": "s4"
+ },
+ {
+  "start": 77.52,
+  "end": 79.61,
+  "text": "Compressor power rises in line",
+  "hold_end": 79.66,
+  "scene": "s4"
+ },
+ {
+  "start": 79.66,
+  "end": 81.94,
+  "text": "with the higher condensing temperature.",
+  "hold_end": 82.17999999999999,
+  "scene": "s4"
+ },
+ {
+  "start": 82.17999999999999,
+  "end": 83.87,
+  "text": "Measured flow is stable,",
+  "hold_end": 83.92999999999999,
+  "scene": "s4"
+ },
+ {
+  "start": 83.92999999999999,
+  "end": 85.22,
+  "text": "and the pattern persists in",
+  "hold_end": 85.22,
+  "scene": "s4"
+ },
+ {
+  "start": 85.22,
+  "end": 86.47999999999999,
+  "text": "three of the last four",
+  "hold_end": 86.47999999999999,
+  "scene": "s4"
+ },
+ {
+  "start": 86.47999999999999,
+  "end": 88.67999999999999,
+  "text": "12-hour blocks. The tool also",
+  "hold_end": 88.67999999999999,
+  "scene": "s4"
+ },
+ {
+  "start": 88.67999999999999,
+  "end": 90.15,
+  "text": "lists what is missing,",
+  "hold_end": 90.19999999999999,
+  "scene": "s4"
+ },
+ {
+  "start": 90.19999999999999,
+  "end": 92.31,
+  "text": "no independent condensing pressure or",
+  "hold_end": 92.31,
+  "scene": "s4"
+ },
+ {
+  "start": 92.31,
+  "end": 93.78,
+  "text": "tube condition measurement.",
+  "hold_end": 94.28,
+  "scene": "s4"
+ },
+ {
+  "start": 95.35,
+  "end": 97.5,
+  "text": "The engineering finding rates evidence",
+  "hold_end": 97.5,
+  "scene": "s5"
+ },
+ {
+  "start": 97.5,
+  "end": 100.75999999999999,
+  "text": "strength medium, requiring verification.",
+  "hold_end": 100.83,
+  "scene": "s5"
+ },
+ {
+  "start": 100.83,
+  "end": 102.1,
+  "text": "A qualitative label,",
+  "hold_end": 102.1,
+  "scene": "s5"
+ },
+ {
+  "start": 102.1,
+  "end": 103.85,
+  "text": "not a probability.",
+  "hold_end": 103.91,
+  "scene": "s5"
+ },
+ {
+  "start": 103.91,
+  "end": 104.86,
+  "text": "It sets out what was",
+  "hold_end": 104.86,
+  "scene": "s5"
+ },
+ {
+  "start": 104.86,
+  "end": 107.22,
+  "text": "observed, the leading hypothesis,",
+  "hold_end": 107.27,
+  "scene": "s5"
+ },
+ {
+  "start": 107.27,
+  "end": 109.06,
+  "text": "why the alternatives fit less",
+  "hold_end": 109.06,
+  "scene": "s5"
+ },
+ {
+  "start": 109.06,
+  "end": 110.82,
+  "text": "well, and the limitations,",
+  "hold_end": 110.82,
+  "scene": "s5"
+ },
+ {
+  "start": 110.82,
+  "end": 112.03999999999999,
+  "text": "starting with the fact that",
+  "hold_end": 112.03999999999999,
+  "scene": "s5"
+ },
+ {
+  "start": 112.03999999999999,
+  "end": 113.5,
+  "text": "this is synthetic data.",
+  "hold_end": 114.0,
+  "scene": "s5"
+ },
+ {
+  "start": 115.34,
+  "end": 116.78,
+  "text": "Then a what if question,",
+  "hold_end": 116.82,
+  "scene": "s6"
+ },
+ {
+  "start": 116.82,
+  "end": 118.38,
+  "text": "what if effective condenser heat",
+  "hold_end": 118.38,
+  "scene": "s6"
+ },
+ {
+  "start": 118.38,
+  "end": 120.94,
+  "text": "transfer drops a further 10%?",
+  "hold_end": 120.97999999999999,
+  "scene": "s6"
+ },
+ {
+  "start": 120.97999999999999,
+  "end": 122.7,
+  "text": "A simplified condenser model,",
+  "hold_end": 122.74,
+  "scene": "s6"
+ },
+ {
+  "start": 122.74,
+  "end": 124.57,
+  "text": "calibrated to the current operating",
+  "hold_end": 124.57,
+  "scene": "s6"
+ },
+ {
+  "start": 124.57,
+  "end": 126.99,
+  "text": "point, estimates compressor power up",
+  "hold_end": 127.08,
+  "scene": "s6"
+ },
+ {
+  "start": 127.08,
+  "end": 129.1,
+  "text": "1.7%, approach up half a",
+  "hold_end": 129.1,
+  "scene": "s6"
+ },
+ {
+  "start": 129.1,
+  "end": 130.57999999999998,
+  "text": "Kelvin and COP,",
+  "hold_end": 130.62,
+  "scene": "s6"
+ },
+ {
+  "start": 130.62,
+  "end": 132.22,
+  "text": "the coefficient of performance,",
+  "hold_end": 132.22,
+  "scene": "s6"
+ },
+ {
+  "start": 132.22,
+  "end": 135.03,
+  "text": "down 1.7%. This is a",
+  "hold_end": 135.03,
+  "scene": "s6"
+ },
+ {
+  "start": 135.03,
+  "end": 138.01999999999998,
+  "text": "sensitivity analysis, not a forecast.",
+  "hold_end": 138.06,
+  "scene": "s6"
+ },
+ {
+  "start": 138.06,
+  "end": 139.85999999999999,
+  "text": "Cooling load is held fixed,",
+  "hold_end": 139.9,
+  "scene": "s6"
+ },
+ {
+  "start": 139.9,
+  "end": 140.97,
+  "text": "so it says nothing about",
+  "hold_end": 141.38,
+  "scene": "s6"
+ },
+ {
+  "start": 141.38,
+  "end": 142.51999999999998,
+  "text": "capacity or timing.",
+  "hold_end": 143.01999999999998,
+  "scene": "s6"
+ },
+ {
+  "start": 150.35000000000002,
+  "end": 152.16000000000003,
+  "text": "The finding feeds a verification",
+  "hold_end": 152.16000000000003,
+  "scene": "s7"
+ },
+ {
+  "start": 152.16000000000003,
+  "end": 154.25,
+  "text": "checklist and a demo inspection",
+  "hold_end": 154.32000000000002,
+  "scene": "s7"
+ },
+ {
+  "start": 154.32000000000002,
+  "end": 155.96,
+  "text": "request listing the checks to",
+  "hold_end": 155.96,
+  "scene": "s7"
+ },
+ {
+  "start": 155.96,
+  "end": 157.92000000000002,
+  "text": "perform. In this demo,",
+  "hold_end": 157.96,
+  "scene": "s7"
+ },
+ {
+  "start": 157.96,
+  "end": 159.82000000000002,
+  "text": "the request stays local.",
+  "hold_end": 159.87,
+  "scene": "s7"
+ },
+ {
+  "start": 159.87,
+  "end": 160.81,
+  "text": "Nothing is sent to a",
+  "hold_end": 160.81,
+  "scene": "s7"
+ },
+ {
+  "start": 160.81,
+  "end": 162.12,
+  "text": "maintenance system.",
+  "hold_end": 162.62,
+  "scene": "s7"
+ },
+ {
+  "start": 170.39000000000001,
+  "end": 171.9,
+  "text": "from something changed to what",
+  "hold_end": 171.9,
+  "scene": "s8"
+ },
+ {
+  "start": 171.9,
+  "end": 173.38000000000002,
+  "text": "might explain it to what",
+  "hold_end": 173.38000000000002,
+  "scene": "s8"
+ },
+ {
+  "start": 173.38000000000002,
+  "end": 174.74,
+  "text": "to verify next.",
+  "hold_end": 174.83,
+  "scene": "s8"
+ },
+ {
+  "start": 174.83,
+  "end": 177.9,
+  "text": "PhysicsOps, inspectable engineering evidence,",
+  "hold_end": 177.99,
+  "scene": "s8"
+ },
+ {
+  "start": 177.99,
+  "end": 179.34,
+  "text": "uncertainty included.",
+  "hold_end": 179.84,
+  "scene": "s8"
+ }
+]
