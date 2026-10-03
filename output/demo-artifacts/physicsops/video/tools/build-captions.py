@@ -45,6 +45,11 @@ for sid, path, sstart in SCENES:
     cues[-1]["hold_end"] = cues[-1]["end"] + 0.5
     for c in cues:
         c["scene"] = sid
+        # caption-text corrections approved on review (times unchanged)
+        c["text"] = c["text"][0].upper() + c["text"][1:]
+        c["text"] = re.sub(r"\bChiller zero two\b", "Chiller Zero-Two", c["text"])
+        c["text"] = re.sub(r"\bzero two\b", "Zero-Two", c["text"])
+        c["text"] = re.sub(r"\bKelvin\b", "kelvin", c["text"])
     all_cues += cues
 
 os.makedirs("video/assets/captions", exist_ok=True)

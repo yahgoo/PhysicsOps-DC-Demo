@@ -4,39 +4,39 @@ When a chiller starts behaving
 
 2
 00:00:02,060 --> 00:00:04,010
-differently, the harder question is
+Differently, the harder question is
 
 3
 00:00:04,010 --> 00:00:06,930
-why. PhysicsOps is an engineering
+Why. PhysicsOps is an engineering
 
 4
 00:00:06,940 --> 00:00:09,790
-investigation workspace that turns that
+Investigation workspace that turns that
 
 5
 00:00:09,790 --> 00:00:11,260
-question into evidence an engineer
+Question into evidence an engineer
 
 6
 00:00:11,260 --> 00:00:12,020
-can check.
+Can check.
 
 7
 00:00:15,340 --> 00:00:17,020
-Chiller zero two is one
+Chiller Zero-Two is one
 
 8
 00:00:17,120 --> 00:00:18,660
-of six. The first three
+Of six. The first three
 
 9
 00:00:18,660 --> 00:00:20,190
-of seven synthetic days form
+Of seven synthetic days form
 
 10
 00:00:20,190 --> 00:00:22,280
-the comparable condition baseline.
+The comparable condition baseline.
 
 11
 00:00:22,320 --> 00:00:24,920
@@ -48,23 +48,23 @@ In the last 24 hours,
 
 13
 00:00:26,820 --> 00:00:28,190
-at matched load and inlet
+At matched load and inlet
 
 14
 00:00:28,230 --> 00:00:31,600
-temperature, condenser approach is 1.35
+Temperature, condenser approach is 1.35
 
 15
 00:00:31,620 --> 00:00:33,400
-Kelvin above baseline,
+kelvin above baseline,
 
 16
 00:00:33,440 --> 00:00:36,200
-compressor power 4.8% higher,
+Compressor power 4.8% higher,
 
 17
 00:00:36,200 --> 00:00:37,540
-and flow is flat.
+And flow is flat.
 
 18
 00:00:40,350 --> 00:00:41,600
@@ -72,35 +72,35 @@ Rather than jumping to an
 
 19
 00:00:41,600 --> 00:00:44,030
-answer, PhysicsOps tests three competing
+Answer, PhysicsOps tests three competing
 
 20
 00:00:44,030 --> 00:00:46,670
-explanations against the same data—condenser
+Explanations against the same data—condenser
 
 21
 00:00:46,670 --> 00:00:48,560
-heat transfer degradation,
+Heat transfer degradation,
 
 22
 00:00:48,620 --> 00:00:50,640
-reduced condenser water flow,
+Reduced condenser water flow,
 
 23
 00:00:50,640 --> 00:00:52,970
-and a sensor or instrumentation
+And a sensor or instrumentation
 
 24
 00:00:53,360 --> 00:00:56,070
-problem. Heat transfer degradation leads,
+Problem. Heat transfer degradation leads,
 
 25
 00:00:56,120 --> 00:00:57,960
-with four supporting items and
+With four supporting items and
 
 26
 00:00:57,960 --> 00:00:59,160
-none against it.
+None against it.
 
 27
 00:00:59,190 --> 00:01:00,370
@@ -108,7 +108,7 @@ It is labeled a leading
 
 28
 00:01:00,420 --> 00:01:03,220
-hypothesis that still requires verification.
+Hypothesis that still requires verification.
 
 29
 00:01:05,340 --> 00:01:06,930
@@ -116,23 +116,23 @@ Every item opens to its
 
 30
 00:01:06,930 --> 00:01:09,580
-calculation. Approach is the condensing
+Calculation. Approach is the condensing
 
 31
 00:01:09,580 --> 00:01:12,110
-saturation temperature minus the condenser
+Saturation temperature minus the condenser
 
 32
 00:01:12,120 --> 00:01:13,700
-water outlet temperature,
+Water outlet temperature,
 
 33
 00:01:13,740 --> 00:01:15,120
-compared with a baseline model
+Compared with a baseline model
 
 34
 00:01:15,210 --> 00:01:17,480
-of load and inlet temperature.
+Of load and inlet temperature.
 
 35
 00:01:17,520 --> 00:01:19,610
@@ -140,7 +140,7 @@ Compressor power rises in line
 
 36
 00:01:19,660 --> 00:01:21,940
-with the higher condensing temperature.
+With the higher condensing temperature.
 
 37
 00:01:22,180 --> 00:01:23,870
@@ -148,11 +148,11 @@ Measured flow is stable,
 
 38
 00:01:23,930 --> 00:01:25,220
-and the pattern persists in
+And the pattern persists in
 
 39
 00:01:25,220 --> 00:01:26,480
-three of the last four
+Three of the last four
 
 40
 00:01:26,480 --> 00:01:28,680
@@ -160,15 +160,15 @@ three of the last four
 
 41
 00:01:28,680 --> 00:01:30,150
-lists what is missing,
+Lists what is missing,
 
 42
 00:01:30,200 --> 00:01:32,310
-no independent condensing pressure or
+No independent condensing pressure or
 
 43
 00:01:32,310 --> 00:01:33,780
-tube condition measurement.
+Tube condition measurement.
 
 44
 00:01:35,350 --> 00:01:37,500
@@ -176,7 +176,7 @@ The engineering finding rates evidence
 
 45
 00:01:37,500 --> 00:01:40,760
-strength medium, requiring verification.
+Strength medium, requiring verification.
 
 46
 00:01:40,830 --> 00:01:42,100
@@ -184,7 +184,7 @@ A qualitative label,
 
 47
 00:01:42,100 --> 00:01:43,850
-not a probability.
+Not a probability.
 
 48
 00:01:43,910 --> 00:01:44,860
@@ -192,23 +192,23 @@ It sets out what was
 
 49
 00:01:44,860 --> 00:01:47,220
-observed, the leading hypothesis,
+Observed, the leading hypothesis,
 
 50
 00:01:47,270 --> 00:01:49,060
-why the alternatives fit less
+Why the alternatives fit less
 
 51
 00:01:49,060 --> 00:01:50,820
-well, and the limitations,
+Well, and the limitations,
 
 52
 00:01:50,820 --> 00:01:52,040
-starting with the fact that
+Starting with the fact that
 
 53
 00:01:52,040 --> 00:01:53,500
-this is synthetic data.
+This is synthetic data.
 
 54
 00:01:55,340 --> 00:01:56,780
@@ -216,11 +216,11 @@ Then a what if question,
 
 55
 00:01:56,820 --> 00:01:58,380
-what if effective condenser heat
+What if effective condenser heat
 
 56
 00:01:58,380 --> 00:02:00,940
-transfer drops a further 10%?
+Transfer drops a further 10%?
 
 57
 00:02:00,980 --> 00:02:02,700
@@ -228,11 +228,11 @@ A simplified condenser model,
 
 58
 00:02:02,740 --> 00:02:04,570
-calibrated to the current operating
+Calibrated to the current operating
 
 59
 00:02:04,570 --> 00:02:06,990
-point, estimates compressor power up
+Point, estimates compressor power up
 
 60
 00:02:07,080 --> 00:02:09,100
@@ -240,19 +240,19 @@ point, estimates compressor power up
 
 61
 00:02:09,100 --> 00:02:10,580
-Kelvin and COP,
+kelvin and COP,
 
 62
 00:02:10,620 --> 00:02:12,220
-the coefficient of performance,
+The coefficient of performance,
 
 63
 00:02:12,220 --> 00:02:15,030
-down 1.7%. This is a
+Down 1.7%. This is a
 
 64
 00:02:15,030 --> 00:02:18,020
-sensitivity analysis, not a forecast.
+Sensitivity analysis, not a forecast.
 
 65
 00:02:18,060 --> 00:02:19,860
@@ -260,11 +260,11 @@ Cooling load is held fixed,
 
 66
 00:02:19,900 --> 00:02:20,970
-so it says nothing about
+So it says nothing about
 
 67
 00:02:21,380 --> 00:02:22,520
-capacity or timing.
+Capacity or timing.
 
 68
 00:02:30,350 --> 00:02:32,160
@@ -272,19 +272,19 @@ The finding feeds a verification
 
 69
 00:02:32,160 --> 00:02:34,250
-checklist and a demo inspection
+Checklist and a demo inspection
 
 70
 00:02:34,320 --> 00:02:35,960
-request listing the checks to
+Request listing the checks to
 
 71
 00:02:35,960 --> 00:02:37,920
-perform. In this demo,
+Perform. In this demo,
 
 72
 00:02:37,960 --> 00:02:39,820
-the request stays local.
+The request stays local.
 
 73
 00:02:39,870 --> 00:02:40,810
@@ -292,19 +292,19 @@ Nothing is sent to a
 
 74
 00:02:40,810 --> 00:02:42,120
-maintenance system.
+Maintenance system.
 
 75
 00:02:50,390 --> 00:02:51,900
-from something changed to what
+From something changed to what
 
 76
 00:02:51,900 --> 00:02:53,380
-might explain it to what
+Might explain it to what
 
 77
 00:02:53,380 --> 00:02:54,740
-to verify next.
+To verify next.
 
 78
 00:02:54,830 --> 00:02:57,900
@@ -312,5 +312,5 @@ PhysicsOps, inspectable engineering evidence,
 
 79
 00:02:57,990 --> 00:02:59,340
-uncertainty included.
+Uncertainty included.
 

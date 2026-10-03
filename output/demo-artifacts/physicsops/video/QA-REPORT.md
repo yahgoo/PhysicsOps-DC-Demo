@@ -1,4 +1,6 @@
-# QA report — physicsops-demo-review.mp4 (first review render)
+# QA report — physicsops-demo-review-2.mp4 (second review render)
+
+> v2 note: caption layout changed per review feedback — footage inset to the top 940 px and captions moved into a dedicated 140 px bottom rail, so no caption can ever overlap app UI. Cue text fixes: "Chiller Zero-Two", lowercase "kelvin" (unit), capital "From" on S8 opening cue. Cue times unchanged. Narration, scene timing, footage, stills, dips (77.1 s / 132.2 s), limitations hold and end card identical to v1.
 
 **Under test:** app code at commit `4338bfd` (branch `devin/1790574083-physicsops-demo`, PR #1). Composition/caption sources this commit; all footage, stills, narration and captions generated from that build.
 
@@ -10,7 +12,7 @@
 | Per-scene narration | Measured WAV durations (ffprobe): S1 11.712 / S2 22.187 / S3 22.955 / S4 28.395 / S5 18.069 / S6 27.093 / S7 11.691 / S8 8.896 s — every scene fits its slot (>= 0.8 s headroom); no narration rewritten or re-timed |
 | Audio onset alignment | silencedetect: first-speech within ~50 ms of each scene slot (0.33 / 15.33 / 40.34 / 65.35 / 95.34 / 115.34 / 150.35 / 170.37) |
 | Caption accuracy | Full-watch review (two halves): captions match spoken narration word-for-word; cue timing follows whisper word timestamps (small.en) |
-| Caption placement | Bottom chips clear of charts, metrics, right panel; S7 captions shifted left so the Next-action card and Schedule-inspection dialog stay fully visible |
+| Caption placement | Dedicated bottom rail — verified in full-video review: fleet strip incl. CH-01–CH-06 pills and CH-02 label, full verification checklist, Next-action card, Schedule-inspection button and confirmation, chart axes, evidence rows, what-if results, LIMITATIONS and end-card text all fully visible at all times |
 | Separate-run transitions | Dip-to-black at 77.1 s (W→X evidence) and 132.2 s (W→X what-if); no implication of a single take |
 | Limitations legibility | All five LIMITATION bullets on screen 14 s at ~60 px effective text — inspected at native resolution, fully legible |
 | Pronunciation | "Chiller Zero-Two" spoken naturally (not spelled); "kelvin", "C O P" per approved spoken forms |
